@@ -1,0 +1,15 @@
+UML Notation
+
+Multiplicty - How we configure relationship between entity
+
+                |----Cardinality--> How many tuples from each entity can participate in the relationship    
+Multiplicity --- 
+                |-----Participation --> Whether a tuple from an enitty is required to partcipate in the relationship
+
+
+Meaning of UML Notations
+-->Recatngle before partitiion represents entity name. 
+-->The primary and alternate keys are repsresnted by PK and AK respectively. 
+-->Compoenents of composite key are listed below and undented to right
+--> Derived attributes are identified with / at start of attribute name
+--> Multi-valued attributes are labelled with range of possible value(min--max) for attribute
