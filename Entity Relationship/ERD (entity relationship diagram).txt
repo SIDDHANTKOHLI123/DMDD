@@ -1,1 +1,19 @@
-entity
+Concepts of ER MODEL
+
+-Entitites  --> real life object
+-Attributes  --> attributes that define entities
+-Relationships  --> to check relationships between entities
+
+Types Of keys
+-Candidate --> A field or combination of field that uniquely identifies each record ina tablr. A ctable can haver many candidate keys. One of the candidate keys can be chosen as primary key of the table . Once the primary key is chisen , other candidate keys become keys,or alternate keys.On ekey is single key else it is called composite key
+-Primary --> The field that would accept unique value and never hold a blank value is identified as primary key. The combination of two fiels as a primary key is called composite primary key
+-Foreign --> A field that matches the primary key column of another table.
+
+Surrogate Key --> artificial or generated key they do not carry any business meaning like employeeid,ssn .They have consistency
+Natural Key --> have business logic like lastname+firstname+middlename . A natural key may not be consistent
+
+
+Types of Dta Integrity
+--> DOmain Integrity(Column) --> Data types SQL Chcekc contarinsts
+--> Enurty Intergiry(Rows) --. we use primary key to ensure tha
+--> Referntial Integrity --> (Between tables ot columns in differnet rows os same table) __. Primary Key and Foreign key pair
