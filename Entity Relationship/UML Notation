@@ -8,8 +8,19 @@ Multiplicity ---
 
 
 Meaning of UML Notations
--->Recatngle before partitiion represents entity name. 
+-->Rectangle before partitiion represents entity name. 
 -->The primary and alternate keys are repsresnted by PK and AK respectively. 
 -->Compoenents of composite key are listed below and undented to right
 --> Derived attributes are identified with / at start of attribute name
 --> Multi-valued attributes are labelled with range of possible value(min--max) for attribute
+
+
+Crow Foot Notation
+
+
+Enhanced Entity Relationship Diagram(EERD)
+
+  SPECIALIZATION/GENERALIZATION
+  -sUPER TYPE(SUPERCLASS)
+  -Sub type(Sub class)
+  
