@@ -1,0 +1,11 @@
+Normalization is the technique of dividing the data into multiple tables to reduce data redundancy and inconsistency and to achieve data integrity. On the other hand, Denormalization is the technique of combining the data into a single table to make data retrieval faster.
+
+
+UNf(Unnormalized form) to 1 NF(1st normal form)
+Check if some columns are getting repeated, If yes then partiiton it on basis of column
+
+1NF to 2NF(1st normal form to second normal form)
+Remove partial dependency those who have composite key are having partial dependency
+
+2NF TO 3NF(2nd normal form to 3rd normal form)
+Remove Trnasitive dependency
