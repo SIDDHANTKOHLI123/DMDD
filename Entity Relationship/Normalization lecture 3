@@ -1,0 +1,16 @@
+Purpose of Nomralization 
+ -Produce a set of suitable entities taht support data requirements of an interprise
+ -Minimize data redundancy
+ -Porvide reporting flexibility
+ -maintain data intergrity
+ 
+ Database design lifeycle
+ -conceptual (only entity names and relations)
+ -logical(Nomralization happens here) - contains entity names with relations and their keys
+ -physical (conatisn entity with keys and their data types)
+ 
+ 
+ Functional dependency is when you have one value you get other value . example in : employee enitity has 2 keys employee id and employee name , having employee id gives us employee name so employee name is functionally dependent on employee id. Functional dependency helps us to choose priamry key.
+    employee id ---> employee name(employee id determines employee name , this shows functional dependency)
+    
+    
