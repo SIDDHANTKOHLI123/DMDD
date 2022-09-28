@@ -32,5 +32,21 @@ First normal form-
   remove repeating groups
   remove many to many relationship
   
+  An associative entity is created to find relationship between 2 many-to -many entities.
+  Normalization process is iterative and iterative
+  
+  
+  Second Normal Form 
+    -Remove partial dependecies
+      When one attribute is partially dependent on primary key and not fully dependent on primary key then we say that it is a parial dependency
+      
+  Third normal form
+   -Remove transitive form
+     When one non-key attribute is dependent on other non-key attribute which is dependent on the primary key
+     
+     
+  MongoDB 
+  Denormationzation -->embedding
+  normalization ---> referencing
   
   
