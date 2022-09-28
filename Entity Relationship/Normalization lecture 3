@@ -13,4 +13,24 @@ Purpose of Nomralization
  Functional dependency is when you have one value you get other value . example in : employee enitity has 2 keys employee id and employee name , having employee id gives us employee name so employee name is functionally dependent on employee id. Functional dependency helps us to choose priamry key.
     employee id ---> employee name(employee id determines employee name , this shows functional dependency)
     
-    
+ 
+ Important properties of Normalization/Decomposition:
+  -Lossless-join property
+  -Dependency preservation
+
+
+We usually normalize data till third normalized form :
+   Unnormalized form --> first normalized form ---> second normalized form --> third normalized form
+   
+  
+Denormalization --> Combining smaller entiies to larger enitites.
+Sometimes under stress testing(testing environment, where there is load to access data from database) , we check performance , if the performance is low then we denormalize data sometimes to decrease the time to fetch data from multiple enototes(by use join)
+
+First normal form-
+  remove multi-valued attributes
+  remove composite attributes
+  remove repeating groups
+  remove many to many relationship
+  
+  
+  
