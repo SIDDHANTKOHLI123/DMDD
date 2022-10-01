@@ -1,0 +1,25 @@
+DESIGN A RELATIONAL DATABASE
+ -create application workflow
+ -design screen mock-ups
+ -indetify data displayed on scrren
+ -create an erd based on the standardized techniques
+ -pay attention to keys
+ -implement database based on erd
+ -describe queries to get the needed data
+ 
+ 
+DESIGN A NoSQL DATABASE 
+-create application workflow
+ -design screen mock-ups
+ -indetify data displayed on scrren
+  -describe queries to get the needed data
+  -create an ERD based on the queries
+  -Pay attention to keys
+  -Implement database on ERD
+ 
+
+ 
+
+
+How we design a NoSQL(MongoDB database)
+
